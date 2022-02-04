@@ -1,0 +1,16 @@
+{
+  "name": "@sportsappin/libvalidatorjs",
+  "version": "2022.2.1",
+  "description": "Wrapper for npm validator package for js projects",
+  "main": "index.js",
+  "dependencies": {
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "@types/validator": "^13.7.1"
+  },
+  "keywords": [],
+  "author": "Himanshu Nain",
+  "license": "ISC"
+}
