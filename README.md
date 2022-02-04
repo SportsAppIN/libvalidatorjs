@@ -1,4 +1,4 @@
-#libvalidatorjs
+<h1>libvalidatorjs</h1>
 
 * Exports all functions from <a href="https://github.com/validatorjs/validator.js" target="__blank">validator.js</a> and;
 * isFunction
