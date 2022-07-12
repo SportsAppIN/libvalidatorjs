@@ -36,8 +36,18 @@ module.exports = {
   isEmptyString,
   isEmptyArray,
   isEmptyStringOrNull,
-  isEmptyArrayOrNull
+  isEmptyArrayOrNull,
+  isNonEmptyArray,
+  isNonEmptyString
 };
+
+function isNonEmptyString(val) {
+  return !isEmptyString(val)
+}
+
+function isNonEmptyArray(val) {
+  return !isEmptyArray(val)
+}
 
 function isEmptyStringOrNull(val) {
   return isNull(val) || isEmptyString(val);

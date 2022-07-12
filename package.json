@@ -1,6 +1,6 @@
 {
   "name": "@sportsappin/libvalidatorjs",
-  "version": "2022.6.1",
+  "version": "2022.7.1",
   "description": "Wrapper for npm validator package for js projects",
   "main": "index.js",
   "dependencies": {
