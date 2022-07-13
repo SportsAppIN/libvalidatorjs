@@ -42,11 +42,11 @@ module.exports = {
 };
 
 function isNonEmptyString(val) {
-  return !isEmptyString(val)
+  return isString(val) && val.trim().length > 0;
 }
 
 function isNonEmptyArray(val) {
-  return !isEmptyArray(val)
+  return isArray(val) && val.length > 0;
 }
 
 function isEmptyStringOrNull(val) {
@@ -54,7 +54,7 @@ function isEmptyStringOrNull(val) {
 }
 
 function isEmptyString(val) {
-  return isString(val) && val.trim().length < 1;
+  return isString(val) && val.trim().length === 0;
 }
 
 function isFunction(val) {
